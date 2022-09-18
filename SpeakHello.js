@@ -2,10 +2,10 @@
 // See Lecture 52, part 2
 (function(){
 var speak = {};
-speak.name ="Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura";
+speak.names ="Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura";
 var speak = "Hello";
 speak.helloSpeaker = function(){
-  console.log(helloSpeaker + speak.name);
+  console.log(helloSpeaker + speak.names);
 }
   
 window.speak = speak;
