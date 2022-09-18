@@ -5,7 +5,7 @@ var helloSpeaker = {};
 helloSpeaker.names =["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 var speak = "Hello";
 helloSpeaker.speak = function(){
-  console.log(speak + helloSpeaker.names);
+  console.log(speak + helloSpeaker.names[i]);
 }
   
 window.helloSpeaker = helloSpeaker;
