@@ -9,7 +9,7 @@ var byeSpeaker = {};
 byeSpeaker.names =["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 var speak = "Hello";
 helloSpeaker.speak = function(){
-  console.log(speak + byeSpeaker.names);
+  console.log(speak + byeSpeaker.names[i]);
 }
   
 window.byeSpeaker = byeSpeaker;
