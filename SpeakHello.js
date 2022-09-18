@@ -1,14 +1,14 @@
 // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 (function(){
-var speak = {};
-speak.names ="Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura";
+var helloSpeaker = {};
+helloSpeaker.names ="Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura";
 var speak = "Hello";
-speak.helloSpeaker = function(){
-  console.log(helloSpeaker + speak.names);
+helloSpeaker.speak = function(){
+  console.log(speak + helloSpeaker.names);
 }
   
-window.speak = speak;
+window.helloSpeaker = helloSpeaker;
   
 })(window);
 
