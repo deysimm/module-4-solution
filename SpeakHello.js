@@ -2,7 +2,7 @@
 // See Lecture 52, part 2
 (function(){
 var helloSpeaker = {};
-helloSpeaker.names ="Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura";
+helloSpeaker.names =["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 var speak = "Hello";
 helloSpeaker.speak = function(){
   console.log(speak + helloSpeaker.names);
