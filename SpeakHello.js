@@ -8,7 +8,9 @@ speak.helloSpeaker = function(){
   console.log(helloSpeaker + speak.name);
 }
   
-})();
+window.speak = speak;
+  
+})(window);
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
