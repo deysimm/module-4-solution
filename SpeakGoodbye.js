@@ -4,11 +4,10 @@
 // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
 // See Lecture 52, part 2
 
-(function(){
+(function(window){
 var byeSpeaker = {};
-byeSpeaker.names =["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-var speak = "Hello";
-helloSpeaker.speak = function(){
+byeSpeaker.speakWord = "Good Bye";
+byeSpeaker.speak = function(name){
   console.log(speak + byeSpeaker.names);
 }
   
